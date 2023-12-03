@@ -1,0 +1,12 @@
+def f(numbers):
+    numbers=str(numbers)
+    repeatedNum=0
+    for i in numbers:
+        if numbers.count(i)>1:
+            repeatedNum+=int(i)
+    return repeatedNum
+
+numbers1=11221212 #12
+numbers2=12334 #6
+print(f(numbers1))
+print(f(numbers2))

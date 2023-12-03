@@ -1,0 +1,23 @@
+Before Class
+Watch the video on how to deal with text files:
+https://youtu.be/4mX0uPQFLDU?feature=shared
+From the course textbook, read the Chapter 7 (Files).
+On the w3schools.com platform, do the lessons available in Python Tutorial (File Handling section)
+https://www.w3schools.com/python/python_file_handling.asp
+Then, try to follow the examples contained in the tutorial on your personal computer.
+From the course textbook, read the Chapter 11 (Regular expressions).
+Watch the video on how to deal with regular expressions:
+https://youtu.be/nxjwB8up2gI?feature=shared
+Familiarise yourself with the Regular Expressions topic, available at the:
+https://www.w3schools.com/python/python_regex.asp
+Copy-paste the following text to the website https://regex101.com
+Forests cover about 30,5% of Poland's land area based on international standards. Its overall percentage is still increasing. Forests of Poland are managed by the national program of reforestation (KPZL), aiming at an increase of forest-cover to 33% in 2050. The richness of Polish forest (per SoEF 2011 statistics) is more than twice as high as European average (with Germany and France at the top), containing 2.304 billion cubic meters of trees. The largest forest complex in Poland is Lower Silesian Wilderness. More than 1% of Poland's territory, 3,145 square kilometers (1,214 sq mi), is protected within 23 Polish national parks. Three more national parks are projected for Masuria, the Polish Jura, and the eastern Beskids. In addition, wetlands along lakes and rivers in central Poland are legally protected, as are coastal areas in the north. There are over 120 areas designated as landscape parks, along with numerous nature reserves and other protected areas (e.g. Natura 2000).
+Then, create regular expression patterns that indicate in the text:
+All words ‘Poland’
+Country names (Poland, Germany and France)
+Punctuation marks (dots and commas)
+Numbers representing a year (four-digit numbers)
+Capital letters
+Vowels
+Words with exactly five letters
+Words with at least five letters

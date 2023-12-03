@@ -9,19 +9,19 @@ import unittest
 
 class Test(unittest.TestCase):
     def test_p1(self):
-        import p1
-        self.assertEqual(p1.f(31),7)
-        self.assertEqual(p1.f(8),3)
-        self.assertEqual(p1.f(2),1)
-        self.assertEqual(p1.f(0),0)
+        import mock.p1example as p1example
+        self.assertEqual(p1example.f(31),7)
+        self.assertEqual(p1example.f(8),3)
+        self.assertEqual(p1example.f(2),1)
+        self.assertEqual(p1example.f(0),0)
 
     def test_p2(self):
-        import p2
-        self.assertEqual(p2.f(5,6,7),True)
-        self.assertEqual(p2.f(5,7,5),False)
-        self.assertEqual(p2.f(5,5,7),False)
-        self.assertEqual(p2.f(7,5,5),False)
-        self.assertEqual(p2.f(7,7,7),False)
+        import mock.p2example as p2example
+        self.assertEqual(p2example.f(5,6,7),True)
+        self.assertEqual(p2example.f(5,7,5),False)
+        self.assertEqual(p2example.f(5,5,7),False)
+        self.assertEqual(p2example.f(7,5,5),False)
+        self.assertEqual(p2example.f(7,7,7),False)
 
     def test_p3(self):
         import p3
